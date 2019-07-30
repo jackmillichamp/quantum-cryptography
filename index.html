@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Quantum Cryptography</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Quantum Cryptography</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/icon.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Classical Cryptography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Why Change?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Quantum Key Distribution</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Conclusion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#refs">References</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Quantum
+          <span class="text-primary">Cryptography</span>
+        </h1>
+        <div class="subheading mb-5">Jack Millichamp · School of Physics and Astronomy, University of Birmingham ·
+          <a href="mailto:JLM638@student.bham.ac.uk">JLM638@student.bham.ac.uk</a>
+        </div>
+        <p class="lead mb-5">With ongoing deveopments in quantum computing, long-established and currently secure encryption methods may soon become obsolete. New methods immune to such developments must be sought after. Quantum cryptography is a form of encryption that harnesses the fundamental uncertainty of quantum mechanics to provide, in theory, a perfect protection against eveasdropping.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Classical Cryptography</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <p>Currently, nearly all communication and data transmission across public channels is encrypted.
+              <br><br>Encryption aims to hide information from unwanted eavesdroppers whilst providing full access to the intended recipients.
+              <br><br>The most widespread form of encryption is known as <b>RSA encryption</b>. Fundamentally, this works on the principle that it takes far more computing power to calculate the product of two prime numbers than to find the corresponding prime factors of that product. [2]</p>
+            <img class="img-fluid img-profile mx-auto mb-2" src="img/keylock.jpg" alt="">
+            <p><br>Say we have two prime numbers, \(13\) and \(17\).
+              <br><br>Their product can easily be computed as \(13 \times 17=221\). However, if we were only given the final product, \(221\), it would prove more difficult to factor it into \(13\) and \(17\). Given some trail and error it would certainly be possible to find the factors in this example. Nevertheless, if the size of the product were to increase it would become exponentially more difficult to resolve these prime factors. [2]
+              <br><br>In practice the products used are <b>hundreds of digits</b> long and are constantly increases in size to accommodate for new, faster, factoring algorithms.</p>
+              <br>As a result of this, the computational time it would take to find prime factors of this magnitude is impractical on human timescales.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Why Change?</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Quantum Computers</div>
+            <p>Fundamentally, classical computers work by creating and manipulating strings of bits. A bit is a binary quantity that can be either a \(1\) or a \(0\) - sort of like an alphabet with only two letters. When strung together, bits can represent information (such as numbers and words).</p>
+            <p>Quantum computers, on the other hand, work with <b>qubits</b>. [3]
+              <br><br>Qubits differ from bits in that they can take one of <b>three</b> possible values: \(1\), \(0\) or a mixture of both \(1\) and \(0\).</p>
+            <p>This extra state in the computer’s ‘alphabet’ allows it to do certain operations much more efficiently than its classical counterpart.[1,3] One of these operations happens to be the prime factoring of large numbers.</p>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="subheading mb-3">Classical Encryption May No Longer Be Secure</div>
+            <p>RSA encryption relies on the assumption that the numbers used are far too large to be practicably factored into their primes. With the advent of quantum computing, this assumption may soon collapse.</p>
+            <p>It is thought that quantum computers can factor numbers <b>exponentially</b> faster than conventional computers, meaning that encryptions currently taking thousands of years to break may soon be breakable in a matter of minutes. [1]
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Quantum Key Distribution</h2>
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <p>Instead of using mathematical functions to encrypt data, quantum cryptography uses the strange principles of quantum mechanics to create a unique <b>key</b>. Only the intended recipients and the sender access to this key, meaning that it can be used encrypt information transferred between them.</p>
+              <p>The strange principle of quantum mechanics is known as  <b>entanglement</b>.
+              </p>
+              <p>When two particles are entangled they share a common trait. For example, a pair of particles may be spin-entangled if their combined spin is always a fixed value. Given two spin-entangled particles with a combined spin of \(0\) and individual spins with a magnitude of \(\frac{1}{2}\), if we measure the spin of one to be \(-\frac{1}{2}\), we can know with certainty that the spin of the other must be \(+\frac{1}{2}\) without even measuring it (since \(0=-\frac{1}{2} + (+\frac{1}{2})\)).</p>
+              <p><br>Say we have two users, Alice and Bob. They wish to exchange private information without any eavesdroppers in the public seeing it.</p>
+              <p>In order to do so, they each build a  <b>detector</b> that can measure the spin of incoming particles.</p>
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/web.jpg" alt="">
+              <p>A <b>source</b> emits pairs of spin-entangled particles, which travel along quantum channels before reaching Alice and Bob. In the diagram above, entangled pairs are circles coloured with the same shade of blue.</p>
+              <p>Alice and Bob decide on <b>three settings</b> for their detectors, keeping one common setting but changing the other two. They then use the detectors to measure the spins of the incoming particles, both randomly selecting one of their three settings each time. [1]</p>
+              <p>They then publicly share the settings used for each of the measurements. Since Alice and Bob now know which settings the other used for each measurement, they can split their measurements into two groups:</p>
+              <p><i>- <b>Group 1</b>, where Alice and Bob measured an entangled pair using the different settings.
+              <br><br>- <b>Group 2</b>, where Alice and Bob measured an entangled pair using the same setting.</i></p>
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/QKD.jpg" alt="">
+              <p>In the diagram above the different arrows represent different settings, with the red arrows being those where Alice and Bob used the same setting to measure an entangled pair.</p>
+              <p><br>This is where some interesting quantum mechanics comes into play. By <b>publicly sharing</b> their results in <b>group 1</b>, both users can input all the group 1 results into a formula. The value of this formula will tell them whether any of the particles where interacted with (in an attempt to eavesdrop) by a member of the public while they travelled between them.</p>
+              <p>If they find that the particles hadn’t been tampered with, Alice and Bob can convert their shared group 2 measurements into a secret key which only they know.</p>
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/bits.jpg" alt="">
+              <p>They can then use this key to <b>encrypt</b> the information they wish to transfer between them.
+              <br>Once transferred, the receiver can use their identical key to decrypt it. [1]</p>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Conclusion</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <p>To recap, nearly all data transmission between computers is <b>encrypted</b>. Currently, the most popular mode of encryption is <b>RSA encryption</b>. If developments in <b>quantum computing</b> continue, there may not be much of a future for RSA encryption. Codes could easily be broken by the exponential increase in factoring efficiency brought about by quantum computing.</p>
+            <p>We must develop new - quantum computer resistant - cryptography methods.</p>
+            <p>Quantum cryptography is one such development. Fundamentally, it exploits the <b>spin-entanglement</b> of certain quantum particles in order to create a <b>shared</b>, <b>private</b>, key between users. Only those users with the specific key can then encrypt and decrypt transferred information.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="refs">
+      <div class="w-100">
+        <h2 class="mb-5">References</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <p>[1] <i>A. V. Sergienko, Quantum Communications and Cryptography (Taylor Francis, Boca Raton, Florida, 2006), Vol. II.</i></p>
+            <p>[2] <i>RSA Encryption, <a href="https://www.comparitech.com/blog/information-security/rsa-encryption/">https://www.comparitech.com/blog/information-security/rsa-encryption/</a>; 2018</i></p>
+            <p>[3] <i>What are qubits in quantum computing?, <a href="https://medium.com/@jonathan_hui/qc-what-are-qubits-in-quantum-computing-cdb3cb566595">https://medium.com/@jonathan_hui/qc-what-are-qubits-in-quantum-computing-cdb3cb566595</a>; 2018</i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+  <!-- Plugin MathJax -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+</body>
+
+</html>
